@@ -1,0 +1,235 @@
+body {
+
+    font-family: 'Muli', sans-serif;
+    margin: 0%;
+}
+
+
+
+.section-1 {
+    background-image: url(/images/donation6.jpg);
+    background-repeat: no-repeat;
+    filter: blur(0.1px);
+    background-size: 100%;
+    color: white;
+    text-decoration: solid;
+    text-shadow: 4px 4px 12px black;
+    text-align: center;
+    padding-top: 100px;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 150px;
+
+}
+
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(rgb(250, 234, 18), rgb(221, 203, 40));
+    background-color: orange;
+    color: white;
+    font-weight: 700;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+.section-2 {
+    padding-top: 50px;
+    text-align: center;
+    color: black;
+
+}
+
+.ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bg {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    width: 80px;
+    height: 40px;
+    float: left;
+    display: inline;
+    margin-right: 20px;
+    background-image: linear-gradient(top left, #e7b511 0%, #f0e009 100%);
+    padding-top: 20px;
+}
+.bg-active {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    background-color: red;
+    border-style:solid;
+    border-color: rgb(113, 117, 121);
+    width: 90px;
+    height: 45px;
+    float: left;
+    display: inline;
+    margin-right: 20px;
+    background-image: linear-gradient(top left, #e7b511 0%, #f0e009 100%);
+    padding-top: 20px;
+}
+
+.OtherAmt {
+    color: gray;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    padding-bottom: 40px;
+
+}
+
+.flex-cont {
+    display: flex;
+    margin-bottom: 50px;
+
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 3.5%;
+    align-self: center;
+}
+
+.half-width img {
+    width: 80%;
+    margin-top: 40px;
+    margin-bottom: 10%;
+}
+
+.distrib-item {
+    width: 50%;
+    margin-left: 8%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    padding-top: 10px;
+
+}
+
+.email {
+    padding: 70px 80px;
+    width: 50%;
+    margin-left: 20%;
+
+    text-align: center;
+    background-color: antiquewhite;
+    margin-bottom: 50px;
+
+
+}
+
+.distrib {}
+
+.bg2 {
+
+    display: block;
+    background-size: cover;
+    height: 150px;
+    width: 100%;
+    position: relative;
+}
+
+input {
+    background: rgba(255, 255, 255, 0.4);
+    border: none;
+    position: relative;
+    display: block;
+    outline: none;
+    width: 400px;
+    height: 30p;
+    top: 50px;
+    margin: 0 auto;
+    padding: 10px;
+    color: #333;
+    -webkit-box-shadow: 0 2px 10px 1px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 2px 10px 1px rgba(0, 0, 0, 0.5);
+}
+
+::-webkit-input-placeholder {
+    color: #666;
+}
+
+:-moz-placeholder {
+    color: #666;
+}
+
+::-moz-placeholder {
+    color: #666;
+}
+
+:-ms-input-placeholder {
+    color: #666;
+}
+
+#title {
+    font-size: 70px;
+}
+
+#p {
+    font-weight: 700;
+    color: white;
+    text-decoration: solid;
+    font-size: x-large;
+}
+
+#p2 {
+    font-weight: 700;
+    color: gray;
+    text-decoration: solid;
+    font-size: medium;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+#dnt {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+#expr {
+    margin-left: 15px;
+}
+
+#food {
+    background-color: rgb(226, 241, 247);
+}
+
+#family {
+    background-color: rgb(248, 206, 245);
+}
+
+#edu {
+    background-color: rgb(240, 214, 160);
+}
+
+#abt {
+    padding-top: 1px;
+    font-size: medium;
+    text-align: justify;
+    padding-right: 80px;
+    padding-bottom: 30px;
+}
+
+#help {
+    font-size: 40px;
+}
+
+footer h2 {
+    background: rgba(0, 0, 0, 0.5) left top;
+    text-align: center;
+    height: 120px;
+    clear: both;
+    padding-top: 80px;
+    color: yellow
+}
